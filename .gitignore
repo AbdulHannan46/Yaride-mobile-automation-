@@ -1,0 +1,32 @@
+# Dependencies
+node_modules/
+
+# Environment Variables & Secrets
+.env
+.env.*
+!.env.example
+
+# Test artifacts and media
+screenshots/*.png
+!screenshots/.gitkeep
+reports/*
+!reports/.gitkeep
+allure-results/
+!allure-results/.gitkeep
+allure-report/
+
+# Logs & crash dumps
+*.log
+appium-crash.txt
+window_dump.xml
+dump*.xml
+
+# Build outputs
+dist/
+
+# IDE & OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
